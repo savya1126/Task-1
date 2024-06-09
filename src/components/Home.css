@@ -1,0 +1,86 @@
+.offer {
+    background-color: crimson;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.offer h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .left {
+        max-width: 50%;
+    }
+}
+
+.sub-title {
+    border: 1px solid crimson;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: fit-content;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #707070;
+    max-width: 90%;
+}
+
+input {
+    border: 1px solid #3b3b3b;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    background-color: crimson;
+    padding: 8px;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    color: white;
+}
+
+.cta {
+    display: flex;
+    gap: 10px;
+}
+
+#timer {
+    font-weight: bold;
+}
